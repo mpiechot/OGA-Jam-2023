@@ -1,0 +1,31 @@
+.MainButton {
+    background-color: rgb(240, 0, 60);
+    border-width: 3;
+    border-color: rgb(164, 0, 55);
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 10px rgb(164, 0, 55);
+    font-size: 42;
+    -unity-font: url('project://database/Assets/UI/Fonts/Coda-Regular.ttf?fileID=12800000&guid=d6e4040e87866fd43997c4cabc96ed82&type=3#Coda-Regular');
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/Coda-Regular SDF 1.ttf');
+}
+
+.MainButton:hover{
+    background-color: rgb(164, 0, 55);
+    transition-property: all, translate;
+    transition-duration: 500ms, 1s;
+    transition-delay: 0s, 1s;
+    transition-timing-function: linear, ease-in;
+}
+
+.GameName {
+    -unity-font-definition: url('project://database/Assets/UI/Fonts/Coda-Regular%20SDF%201.asset?fileID=11400000&guid=74c70fa09e159664fb43c565cc20d9d2&type=2#Coda-Regular SDF 1');
+    -unity-font: url('project://database/Assets/UI/Fonts/Coda-Regular.ttf?fileID=12800000&guid=d6e4040e87866fd43997c4cabc96ed82&type=3#Coda-Regular');
+    -unity-font-style: bold;
+    font-size: 72px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(164, 0, 55);
+    text-shadow: 0 200px 0 rgb(164, 0, 55);
+    letter-spacing: 20px;
+}

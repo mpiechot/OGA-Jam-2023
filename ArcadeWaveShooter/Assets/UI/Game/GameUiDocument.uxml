@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/General.uss?fileID=7433441132597879392&amp;guid=f274e6e694dff7840b8a1056c9a90b04&amp;type=3#General" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column; align-self: auto; justify-content: flex-start;">
+        <ui:VisualElement name="MenuPopup" style="flex-grow: 0; background-color: rgb(255, 255, 255); width: 30%; left: auto; top: 20%; justify-content: center; align-self: center; height: auto; padding-left: 25px; padding-right: 25px; padding-top: 25px; padding-bottom: 25px; border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; border-left-color: rgb(164, 0, 55); border-right-color: rgb(164, 0, 55); border-top-color: rgb(164, 0, 55); border-bottom-color: rgb(164, 0, 55); border-top-left-radius: 30px; border-bottom-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; align-items: stretch; flex-direction: column; opacity: 1; display: none;">
+            <ui:Button text="Continue" display-tooltip-when-elided="true" name="ContinueButton" class="MainButton TextStyle Texty" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="QuitButton" class="MainButton TextStyle Texty" />
+        </ui:VisualElement>
+        <ui:VisualElement name="TopMenu" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; position: absolute; left: 10px; top: 10px;">
+            <ui:Button text="Menu" display-tooltip-when-elided="true" name="MenuButton" class="MainButton TextStyle Texty" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

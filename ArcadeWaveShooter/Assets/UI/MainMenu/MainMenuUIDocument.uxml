@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/General.uss?fileID=7433441132597879392&amp;guid=f274e6e694dff7840b8a1056c9a90b04&amp;type=3#General" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:Label tabindex="-1" text="Arcarde Space Game" display-tooltip-when-elided="true" name="GameName" class="GameName" style="margin-left: 0; margin-right: 0; margin-top: 100px; margin-bottom: 0;" />
+        <ui:VisualElement name="Menu" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); margin-left: 40%; margin-right: 40%; margin-top: 100px; margin-bottom: 100px;">
+            <ui:Button text="Start" display-tooltip-when-elided="true" name="StartButton" class="MainButton TextStyle Texty" />
+            <ui:Button text="Load" display-tooltip-when-elided="true" name="LoadButton" class="MainButton" />
+            <ui:Button text="Credits" display-tooltip-when-elided="true" name="CreditsButton" class="MainButton" />
+            <ui:VisualElement name="EmptySpace" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+            <ui:Button text="Quit" display-tooltip-when-elided="true" name="QuitButton" class="MainButton" style="flex-direction: column; justify-content: flex-end; align-items: stretch; align-self: auto;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
