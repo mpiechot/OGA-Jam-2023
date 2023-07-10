@@ -1,6 +1,6 @@
 #nullable enable
 
-using Assets.Scripts.Exceptions;
+using ArcardeWaveShooter.Exceptions;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -8,16 +8,16 @@ using UnityEngine.UIElements;
 public class GameUiController : MonoBehaviour
 {
     [SerializeField]
-    private UIDocument mainMenu;
+    private UIDocument? gameMenu;
 
-    private VisualElement root;
-    private VisualElement menuPopup;
+    private VisualElement root = null!;
+    private VisualElement menuPopup = null!;
 
     public void Start()
     {
-        SerializeFieldNotAssignedException.ThrowIfNull(mainMenu, nameof(mainMenu));
+        SerializeFieldNotAssignedException.ThrowIfNull(gameMenu, nameof(gameMenu));
 
-        root = mainMenu.rootVisualElement;
+        root = gameMenu.rootVisualElement;
         menuPopup = root.Q<VisualElement>("MenuPopup");
 
         root.Q<Button>("MenuButton").clicked += OnMenuClicked;

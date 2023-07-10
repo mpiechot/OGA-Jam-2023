@@ -1,6 +1,6 @@
 #nullable enable
 
-using Assets.Scripts.Exceptions;
+using ArcardeWaveShooter.Exceptions;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -8,7 +8,7 @@ using UnityEngine.UIElements;
 public class MainMenuController : MonoBehaviour
 {
     [SerializeField]
-    private UIDocument mainMenu;
+    private UIDocument? mainMenu;
 
     private VisualElement? root;
 

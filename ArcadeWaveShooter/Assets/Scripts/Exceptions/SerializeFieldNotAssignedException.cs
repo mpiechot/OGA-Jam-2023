@@ -1,10 +1,13 @@
-﻿using System;
+﻿#nullable enable
 
-namespace Assets.Scripts.Exceptions
+using System;
+using System.Diagnostics.CodeAnalysis;
+
+namespace ArcardeWaveShooter.Exceptions
 {
     public class SerializeFieldNotAssignedException : Exception
     {
-        public static void ThrowIfNull(object? objectToTest, string objectName)
+        public static void ThrowIfNull([NotNull] object? objectToTest, string objectName)
         {
             if (objectToTest == null)
             {
