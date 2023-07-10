@@ -14,7 +14,6 @@ public class LVLSplineSetup : MonoBehaviour
     {
         SplineContainer[] allSplines = splineContainer.GetComponentsInChildren<SplineContainer>();
         isFirstSpline = true;
-        SplineAnimate lastSpline = null;
         foreach (SplineContainer spline in allSplines)
         {
             SplineAnimate sA = gameObject.AddComponent<SplineAnimate>();
@@ -25,9 +24,8 @@ public class LVLSplineSetup : MonoBehaviour
             sA.MaxSpeed = 5;
             sA.Alignment = SplineAnimate.AlignmentMode.None;
             isFirstSpline = false;
-            sA.Easing = isFirstSpline? SplineAnimate.EasingMode.EaseIn : SplineAnimate.EasingMode.None;
-            lastSpline = sA;
+            if (sA.Container.Spline.TryGetIntData("EasingType", out SplineData<int> data))
+                sA.Easing = data.DefaultValue == 0 ? SplineAnimate.EasingMode.EaseIn : data.DefaultValue == 1 ? SplineAnimate.EasingMode.EaseOut : data.DefaultValue == 2 ? SplineAnimate.EasingMode.EaseInOut : SplineAnimate.EasingMode.None;
         }
-        lastSpline.Easing = SplineAnimate.EasingMode.EaseOut;
     }
 }
