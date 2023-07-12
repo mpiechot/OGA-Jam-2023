@@ -8,10 +8,30 @@ public class LevelManager : MonoBehaviour
     [SerializeField]
     private LevelLoader? levelLoader;
 
+    private LevelLoader LevelLoader => levelLoader == null ? throw new SerializeFieldNotAssignedException() : levelLoader;
+
     private void Start()
     {
-        SerializeFieldNotAssignedException.ThrowIfNull(levelLoader, nameof(levelLoader));
+        LevelLoader.NextLevel();
+        Mailbox.AddSubscriber<GameOverMail>(OnGameOver);
+    }
 
-        levelLoader.NextLevel();
+    private void OnGameOver(object obj)
+    {
+        if (obj is not bool gameOver)
+        {
+            return;
+        }
+
+        if (gameOver)
+        {
+            // Player reached the end of the level
+            LevelLoader.NextLevel();
+        }
+        else
+        {
+            // Player died
+            LevelLoader.ReloadLoadedLevel();
+        }
     }
 }
