@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class FlyingBullet : MonoBehaviour
 {
+    [SerializeField] private float bulletDamage;
     [SerializeField] private float bulletSpeed;
     private Rigidbody rb;
 
@@ -19,5 +20,9 @@ public class FlyingBullet : MonoBehaviour
     {
         // Apply Damage
         // Destroy self
+        if(other.TryGetComponent<ECHealth>(out ECHealth health))
+        {
+            health.ApplyDamage(bulletDamage);
+        }
     }
 }
