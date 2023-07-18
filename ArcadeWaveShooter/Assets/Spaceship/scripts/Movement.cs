@@ -17,10 +17,10 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Movement();
+        Move();
     }
 
-    private void Movement()
+    private void Move()
     {
         float yChange = 0;
 
