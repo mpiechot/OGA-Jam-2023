@@ -13,8 +13,10 @@ public class MainMenuController : MonoBehaviour
 
     private VisualElement? root;
     private VisualElement? credits;
+    private VisualElement? levels;
 
     private VisualElement Credits => credits ?? throw new NullReferenceException("Can't access credits because it is null");
+    private VisualElement Levels => levels ?? throw new NullReferenceException("Can't access credits because it is null");
 
 
     public void Start()
@@ -23,18 +25,21 @@ public class MainMenuController : MonoBehaviour
 
         root = mainMenu.rootVisualElement;
         credits = root.Q<VisualElement>("Credits");
+        levels = root.Q<VisualElement>("Levels");
 
         root.Q<Button>("StartButton").clicked += OnStartClicked;
         root.Q<Button>("LoadButton").clicked += OnLoadClicked;
         root.Q<Button>("QuitButton").clicked += OnQuitClicked;
         root.Q<Button>("CreditsButton").clicked += OnOpenCreditsClicked;
-        root.Q<Button>("CloseCreditsButton").clicked += OnCloseCreditsClicked;
+        root.Q<Button>("CloseCreditsButton").clicked += OnCloseClicked;
+        root.Q<Button>("CloseLevelsButton").clicked += OnCloseClicked;
 
     }
 
-    private void OnCloseCreditsClicked()
+    private void OnCloseClicked()
     {
         Credits.style.display = DisplayStyle.None;
+        Levels.style.display = DisplayStyle.None;
     }
 
     private void OnOpenCreditsClicked()
@@ -49,7 +54,7 @@ public class MainMenuController : MonoBehaviour
 
     private void OnLoadClicked()
     {
-        Debug.Log("Load clicked!");
+        Levels.style.display = DisplayStyle.Flex;
     }
 
     private void OnStartClicked()
