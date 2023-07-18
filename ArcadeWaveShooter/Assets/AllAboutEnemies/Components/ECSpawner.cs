@@ -5,9 +5,16 @@ using UnityEngine;
 public class ECSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject toSpawn;
+    [SerializeField] private int amountToSpawn;
+    [SerializeField] private float angle;
 
     public void Spawn()
     {
-        Instantiate(toSpawn, transform.position, transform.rotation);
+        for(int i = 0; i < amountToSpawn; i++)
+        {
+            float lowestAngle = -angle / 2;
+            float angleDelta = angle / (amountToSpawn - 1);
+            Instantiate(toSpawn, transform.position, transform.rotation * Quaternion.Euler(0,0, lowestAngle + angleDelta * i));
+        }
     }
 }

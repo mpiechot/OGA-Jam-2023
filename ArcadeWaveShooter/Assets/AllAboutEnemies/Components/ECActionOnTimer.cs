@@ -6,7 +6,8 @@ using UnityEngine.Events;
 public class ECActionOnTimer : MonoBehaviour
 {
     [SerializeField] private float timeInterval;
-    [SerializeField] private int amountToInvoke;
+    [SerializeField] private int simultaneousAmountToInvoke;
+    [SerializeField] private int sequentialAmountToInvoke;
     [SerializeField] private float sequentialInvocationTime;
     [SerializeField] private UnityEvent actionToInvoke;
 
@@ -18,14 +19,15 @@ public class ECActionOnTimer : MonoBehaviour
     {
         if(lastInvocationTime > timeInterval)
         {
-            invokedAmount = amountToInvoke;
+            invokedAmount = sequentialAmountToInvoke;
             lastInvocationTime = 0;
         }
 
         if(invokedAmount > 0 && lastInvocationTimeSpace <= 0)
         {
             invokedAmount--;
-            actionToInvoke?.Invoke();
+            for(int i = 0; i < simultaneousAmountToInvoke; i++)
+                actionToInvoke?.Invoke();
             lastInvocationTimeSpace = sequentialInvocationTime;
         }
         else 

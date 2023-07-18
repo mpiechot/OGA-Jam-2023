@@ -155,7 +155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeInterval: 3
-  amountToInvoke: 5
+  simultaneousAmountToInvoke: 1
+  sequentialAmountToInvoke: 5
   sequentialInvocationTime: 0.1
   actionToInvoke:
     m_PersistentCalls:
@@ -185,6 +186,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toSpawn: {fileID: 5619921818730739016, guid: 5956993a8638bd94281d8c238e2b721f, type: 3}
+  amountToSpawn: 3
+  angle: 45
 --- !u!114 &6676838555167190690
 MonoBehaviour:
   m_ObjectHideFlags: 0

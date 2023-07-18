@@ -12,7 +12,7 @@ public class FlyingBullet : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.velocity = Vector3.left * bulletSpeed;
+        rb.velocity = -transform.right * bulletSpeed;
         Destroy(gameObject, 5);
     }
 
