@@ -4,21 +4,39 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    [SerializeField, Tooltip("Ref. to the RigidBody")]
-    private Rigidbody2D rigidbody2;
 
-    [SerializeField, Tooltip("Thrust of the movement")]
-    private float thrust = 1.0f;
+    [SerializeField, Tooltip("Speed of the movement")]
+    private float movementSpeed = 1.0f;
+
+    [SerializeField, Tooltip("Upper border")]
+    private float upperBorder = 0;
+
+    [SerializeField, Tooltip("Lower border")]
+    private float lowerBorder = 0;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            rigidbody2.AddForce(Vector3.up * thrust, ForceMode2D.Impulse);
-        }else if (Input.GetKeyDown(KeyCode.S))
-        {
-            rigidbody2.AddForce(Vector3.down * thrust, ForceMode2D.Impulse);
-        }
+        Movement();
     }
+
+    private void Movement()
+    {
+        float yChange = 0;
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            yChange = 1;
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
+            yChange = -1;
+        }
+
+        float newY = transform.position.y + (movementSpeed * Time.deltaTime * yChange);
+        newY = Mathf.Clamp(newY, lowerBorder, upperBorder);
+
+        transform.position = new Vector3(transform.position.x, newY, 0);
+    }
+
 }
