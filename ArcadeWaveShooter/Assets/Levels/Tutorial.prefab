@@ -4161,91 +4161,107 @@ MonoBehaviour:
 
       Moves to indicate speed of the ship'
     timeToActivate: 0
-    objectReference: {fileID: 9195587788883627497}
+    objectReferences:
+    - {fileID: 9195587788883627497}
     waitForDestruction: 0
   - label: 'Wave 1
 
       First Asterioid-wave'
     timeToActivate: 1
-    objectReference: {fileID: 2762666667530009150}
+    objectReferences:
+    - {fileID: 2762666667530009150}
     waitForDestruction: 0
   - label: Wave 2
     timeToActivate: 4
-    objectReference: {fileID: 2480013459538436352}
+    objectReferences:
+    - {fileID: 2480013459538436352}
     waitForDestruction: 0
   - label: Wave 3
     timeToActivate: 7
-    objectReference: {fileID: 1758773883044718269}
+    objectReferences:
+    - {fileID: 1758773883044718269}
     waitForDestruction: 0
   - label: 'Wave 4
 
 '
     timeToActivate: 9
-    objectReference: {fileID: 5673155270538370940}
+    objectReferences:
+    - {fileID: 5673155270538370940}
     waitForDestruction: 0
   - label: Wave 5
     timeToActivate: 11
-    objectReference: {fileID: 4764116896753327818}
+    objectReferences:
+    - {fileID: 4764116896753327818}
     waitForDestruction: 0
   - label: Wave 6
     timeToActivate: 13
-    objectReference: {fileID: 7040617907803464590}
+    objectReferences:
+    - {fileID: 7040617907803464590}
     waitForDestruction: 0
   - label: Wave 7
     timeToActivate: 15
-    objectReference: {fileID: 4159476369484187433}
+    objectReferences:
+    - {fileID: 4159476369484187433}
     waitForDestruction: 0
   - label: 'Wave 8
 
 '
     timeToActivate: 18
-    objectReference: {fileID: 1980066981627034759}
+    objectReferences:
+    - {fileID: 1980066981627034759}
     waitForDestruction: 0
   - label: Wave 9.1
     timeToActivate: 20
-    objectReference: {fileID: 5506511045957460087}
+    objectReferences:
+    - {fileID: 5506511045957460087}
     waitForDestruction: 0
   - label: 'Wave 9.2
 
 
 '
     timeToActivate: 20.5
-    objectReference: {fileID: 7428529002926008167}
+    objectReferences:
+    - {fileID: 7428529002926008167}
     waitForDestruction: 0
   - label: 'Wave 9.3
 
 
 '
     timeToActivate: 20.8
-    objectReference: {fileID: 7190901032350665120}
+    objectReferences:
+    - {fileID: 7190901032350665120}
     waitForDestruction: 0
   - label: 'Wave 9.4
 
 
 '
     timeToActivate: 21.5
-    objectReference: {fileID: 1720531686871513497}
+    objectReferences:
+    - {fileID: 1720531686871513497}
     waitForDestruction: 0
   - label: 'Wave 9.5
 
 
 '
     timeToActivate: 21.8
-    objectReference: {fileID: 200261453731922443}
+    objectReferences:
+    - {fileID: 200261453731922443}
     waitForDestruction: 0
   - label: 'Wave 9.6
 
 
 '
     timeToActivate: 22.3
-    objectReference: {fileID: 500815398221250428}
+    objectReferences:
+    - {fileID: 500815398221250428}
     waitForDestruction: 0
   - label: 'Wave 9.7
 
 
 '
     timeToActivate: 23
-    objectReference: {fileID: 4834589191440533331}
+    objectReferences:
+    - {fileID: 4834589191440533331}
     waitForDestruction: 0
   - label: 'Wave 9.8
 
@@ -4253,7 +4269,8 @@ MonoBehaviour:
 
 '
     timeToActivate: 23.5
-    objectReference: {fileID: 8918340629844554331}
+    objectReferences:
+    - {fileID: 8918340629844554331}
     waitForDestruction: 0
   - label: 'Wave 10.1
 
@@ -4261,7 +4278,8 @@ MonoBehaviour:
 
 '
     timeToActivate: 28
-    objectReference: {fileID: 3213912089771345069}
+    objectReferences:
+    - {fileID: 3213912089771345069}
     waitForDestruction: 0
   - label: 'Wave 10.2
 
@@ -4269,7 +4287,8 @@ MonoBehaviour:
 
 '
     timeToActivate: 28.5
-    objectReference: {fileID: 6892001543893868090}
+    objectReferences:
+    - {fileID: 6892001543893868090}
     waitForDestruction: 0
 --- !u!1 &8918340629844554331
 GameObject:
