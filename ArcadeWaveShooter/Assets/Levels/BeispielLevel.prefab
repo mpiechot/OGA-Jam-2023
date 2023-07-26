@@ -12101,81 +12101,63 @@ MonoBehaviour:
 
       Moves to indicate speed of the ship'
     timeToActivate: 0
-    objectReference: {fileID: 9195587788883627497}
+    objectReferences:
+    - {fileID: 9195587788883627497}
     waitForDestruction: 0
   - label: 'Enemy 1
 
       Active after 1 second. Level ends when it''s destroyed
       or disappears'
     timeToActivate: 1
-    objectReference: {fileID: 5180851682365212872}
-    waitForDestruction: 0
-  - label: 'Enemy 2
-
-      Active after 1 second. Level ends when it''s destroyed
-      or disappears'
-    timeToActivate: 1
-    objectReference: {fileID: 5067666851462572408}
+    objectReferences:
+    - {fileID: 5180851682365212872}
+    - {fileID: 5067666851462572408}
     waitForDestruction: 1
   - label: 'FastEnemy 1
 
       Bunch of Fast moving sequential enemies'
     timeToActivate: 1.1
-    objectReference: {fileID: 2215967954989171392}
-    waitForDestruction: 0
-  - label: 'Lower FastEnemy 1
-
-      Bunch of Fast moving sequential enemies'
-    timeToActivate: 1.1
-    objectReference: {fileID: 8241324142281945622}
+    objectReferences:
+    - {fileID: 2215967954989171392}
+    - {fileID: 8241324142281945622}
     waitForDestruction: 0
   - label: 'FastEnemy 2
 
       Bunch of Fast moving sequential enemies'
     timeToActivate: 1.5
-    objectReference: {fileID: 189472555113834283}
-    waitForDestruction: 0
-  - label: 'Lower FastEnemy 2
-
-      Bunch of Fast moving sequential enemies'
-    timeToActivate: 1.5
-    objectReference: {fileID: 4302529497314980551}
+    objectReferences:
+    - {fileID: 189472555113834283}
+    - {fileID: 4302529497314980551}
     waitForDestruction: 0
   - label: 'FastEnemy 3
 
       Bunch of Fast moving sequential enemies'
     timeToActivate: 2
-    objectReference: {fileID: 399812262811113719}
-    waitForDestruction: 0
-  - label: 'Lower FastEnemy 3
-
-      Bunch of Fast moving sequential enemies'
-    timeToActivate: 2
-    objectReference: {fileID: 5204587410049338559}
+    objectReferences:
+    - {fileID: 399812262811113719}
+    - {fileID: 5204587410049338559}
     waitForDestruction: 0
   - label: 'FastEnemy 4
 
       Bunch of Fast moving sequential enemies'
     timeToActivate: 2.5
-    objectReference: {fileID: 3197588570385246138}
+    objectReferences:
+    - {fileID: 3197588570385246138}
+    - {fileID: 9189352869573561046}
     waitForDestruction: 0
-  - label: 'Lower FastEnemy 4
-
-      Bunch of Fast moving sequential enemies'
-    timeToActivate: 2.5
-    objectReference: {fileID: 9189352869573561046}
-    waitForDestruction: 1
   - label: "Miniboss Entrance\nThe entering of the miniboss. \nThis object is destroyed
       when the entrance is over"
     timeToActivate: 3
-    objectReference: {fileID: 4630878578586178483}
+    objectReferences:
+    - {fileID: 4630878578586178483}
     waitForDestruction: 1
   - label: 'Miniboss Fight
 
       The actual miniboss. It loops it''s animation until
       it is defeated.'
     timeToActivate: 3.1
-    objectReference: {fileID: 7225620225660594072}
+    objectReferences:
+    - {fileID: 7225620225660594072}
     waitForDestruction: 0
 --- !u!1 &9195587788883627497
 GameObject:

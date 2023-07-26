@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -12,7 +13,7 @@ public class LVLLevelPlayer : MonoBehaviour
         [SerializeField, TextArea]
         public string label;
         public float timeToActivate;
-        public GameObject objectReference;
+        public List<GameObject> objectReferences;
         public bool waitForDestruction;
     }    
     public List<Instance> instances;
@@ -29,9 +30,9 @@ public class LVLLevelPlayer : MonoBehaviour
         {
             var currentInstance = instances[currentIndex];
 
-            if (timer >= currentInstance.timeToActivate && !currentInstance.objectReference.activeSelf)
+            if (timer >= currentInstance.timeToActivate && currentInstance.objectReferences.Any(@break => !@break.activeSelf))
             {
-                currentInstance.objectReference.SetActive(true);
+                currentInstance.objectReferences.ForEach(@for => @for.SetActive(true));
                 waitingForDestruction = currentInstance.waitForDestruction;
                 currentIndex++;
                 if (currentIndex >= instances.Count)
@@ -43,7 +44,7 @@ public class LVLLevelPlayer : MonoBehaviour
         {
             var previousInstance = instances[currentIndex - 1];
 
-            if (!previousInstance.objectReference)
+            if (previousInstance.objectReferences.All(@return => !@return))
             {
                 waitingForDestruction = false;
                 if (currentIndex >= instances.Count) 

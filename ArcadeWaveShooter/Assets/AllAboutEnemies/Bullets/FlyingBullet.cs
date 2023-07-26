@@ -7,6 +7,7 @@ public class FlyingBullet : MonoBehaviour
 {
     [SerializeField] private float bulletDamage;
     [SerializeField] private float bulletSpeed;
+    [SerializeField] private bool destroyOnHit;
     private Rigidbody rb;
 
     private void Start()
@@ -23,6 +24,7 @@ public class FlyingBullet : MonoBehaviour
         if(other.TryGetComponent<ECHealth>(out ECHealth health))
         {
             health.ApplyDamage(bulletDamage);
+            if(destroyOnHit) Destroy(gameObject);
         }
     }
 }

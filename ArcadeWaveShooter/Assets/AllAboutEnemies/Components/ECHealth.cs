@@ -8,6 +8,10 @@ public class ECHealth : MonoBehaviour
     [SerializeField] private float maxHealth;
 
     private float health;
+    private void Start()
+    {
+        health = maxHealth;
+    }
 
     public void ApplyDamage(float damage)
     {

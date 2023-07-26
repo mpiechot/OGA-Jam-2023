@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 5376608396743337492}
   - component: {fileID: 1436969872552871166}
   m_Layer: 0
-  m_Name: EnemyBullet
+  m_Name: PlayerBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDamage: 1
-  bulletSpeed: 15
+  bulletSpeed: -15
   destroyOnHit: 1
 --- !u!135 &5376608396743337492
 SphereCollider:
@@ -174,7 +174,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 183
+    m_Bits: 119
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 1

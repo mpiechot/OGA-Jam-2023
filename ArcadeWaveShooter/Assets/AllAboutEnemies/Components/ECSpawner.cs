@@ -13,7 +13,7 @@ public class ECSpawner : MonoBehaviour
         for(int i = 0; i < amountToSpawn; i++)
         {
             float lowestAngle = -angle / 2;
-            float angleDelta = angle / (amountToSpawn - 1);
+            float angleDelta = amountToSpawn > 1 ? angle / (amountToSpawn - 1) : 0;
             Instantiate(toSpawn, transform.position, transform.rotation * Quaternion.Euler(0,0, lowestAngle + angleDelta * i));
         }
     }
