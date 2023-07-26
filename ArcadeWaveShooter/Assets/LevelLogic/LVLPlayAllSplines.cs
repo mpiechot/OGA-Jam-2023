@@ -15,6 +15,7 @@ public class LVLPlayAllSplines : MonoBehaviour
     [SerializeField] private float initialWaitTime = 0.0f;
 
     private float waitTime = 0;
+    private bool initialWait = true;
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +31,7 @@ public class LVLPlayAllSplines : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!allSplines[safeSplineIndex].IsPlaying)
+        if (!initialWait && !allSplines[safeSplineIndex].IsPlaying)
         {
             if (waitTime <= 0)
             {
@@ -53,5 +54,6 @@ public class LVLPlayAllSplines : MonoBehaviour
     {
         yield return new WaitForSeconds(initialWaitTime);
         allSplines[safeSplineIndex].Play();
+        initialWait = false;
     }
 }
