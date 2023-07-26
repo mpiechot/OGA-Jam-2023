@@ -12,6 +12,7 @@ public class LVLPlayAllSplines : MonoBehaviour
     private int splineIndex = 0;
 
     [SerializeField] private bool destroyOnEnd;
+    [SerializeField] private float initialWaitTime = 0.0f;
 
     private float waitTime = 0;
 
@@ -23,6 +24,7 @@ public class LVLPlayAllSplines : MonoBehaviour
         {
             waitTime = data.DefaultValue;
         }
+        StartCoroutine(StartPlaying());
     }
 
     // Update is called once per frame
@@ -45,5 +47,11 @@ public class LVLPlayAllSplines : MonoBehaviour
                 waitTime -= Time.deltaTime;
             }
         }
+    }
+
+    IEnumerator StartPlaying()
+    {
+        yield return new WaitForSeconds(initialWaitTime);
+        allSplines[safeSplineIndex].Play();
     }
 }
