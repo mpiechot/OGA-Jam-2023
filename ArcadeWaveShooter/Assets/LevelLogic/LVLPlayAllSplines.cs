@@ -6,22 +6,25 @@ using UnityEngine.Splines;
 
 public class LVLPlayAllSplines : MonoBehaviour
 {
-
-    private SplineAnimate[] allSplines;
-    private int safeSplineIndex { get => splineIndex % allSplines.Length; }
-    private int splineIndex = 0;
-
     [SerializeField] private bool destroyOnEnd;
     [SerializeField] private float initialWaitTime = 0.0f;
+    [SerializeField] private List<GameObject> deleteAfterFirstPlayed = new();
 
+    private List<SplineAnimate> allSplines;
+    private int splineIndex = 0;
     private float waitTime = 0;
     private bool initialWait = true;
+    private bool initialPlaythrough = true;
+
+    private int SafeSplineIndex => splineIndex % allSplines.Count;
+
+    private SplineAnimate CurrentSpline => allSplines[SafeSplineIndex];
 
     // Start is called before the first frame update
     void Start()
     {
-        allSplines = GetComponents<SplineAnimate>();
-        if (allSplines[safeSplineIndex].Container.Spline.TryGetFloatData("WaitTime", out SplineData<float> data))
+        allSplines = GetComponents<SplineAnimate>().ToList();
+        if (CurrentSpline.Container.Spline.TryGetFloatData("WaitTime", out SplineData<float> data))
         {
             waitTime = data.DefaultValue;
         }
@@ -31,29 +34,45 @@ public class LVLPlayAllSplines : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!initialWait && !allSplines[safeSplineIndex].IsPlaying)
+        if (initialWait || CurrentSpline.IsPlaying)
         {
-            if (waitTime <= 0)
+            return;
+        }
+
+        if (initialPlaythrough && deleteAfterFirstPlayed.Any(go => CurrentSpline.Container.name.Contains(go.name)))
+        {
+            initialPlaythrough = false;
+            Destroy(CurrentSpline);
+            allSplines.RemoveAt(SafeSplineIndex);
+
+            // We need to go back one spline, because we don't want to skip the next one
+            splineIndex--;
+        }
+
+        if (waitTime <= 0)
+        {
+            splineIndex++;
+            if (destroyOnEnd && allSplines.Count <= splineIndex)
             {
-                splineIndex++;
-                if (destroyOnEnd && allSplines.Length <= splineIndex) { Destroy(gameObject); return; }
-                allSplines[safeSplineIndex].Restart(true);
-                if(allSplines[safeSplineIndex].Container.Spline.TryGetFloatData("WaitTime", out SplineData<float> data))
-                {
-                    waitTime = data.DefaultValue;
-                }
+                Destroy(gameObject);
+                return;
             }
-            else
+            CurrentSpline.Restart(true);
+            if (CurrentSpline.Container.Spline.TryGetFloatData("WaitTime", out SplineData<float> data))
             {
-                waitTime -= Time.deltaTime;
+                waitTime = data.DefaultValue;
             }
+        }
+        else
+        {
+            waitTime -= Time.deltaTime;
         }
     }
 
     IEnumerator StartPlaying()
     {
         yield return new WaitForSeconds(initialWaitTime);
-        allSplines[safeSplineIndex].Play();
+        CurrentSpline.Play();
         initialWait = false;
     }
 }
