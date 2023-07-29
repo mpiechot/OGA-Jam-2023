@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ECSpawner : MonoBehaviour
@@ -10,11 +8,14 @@ public class ECSpawner : MonoBehaviour
 
     public void Spawn()
     {
-        for(int i = 0; i < amountToSpawn; i++)
+        for (int i = 0; i < amountToSpawn; i++)
         {
             float lowestAngle = -angle / 2;
             float angleDelta = amountToSpawn > 1 ? angle / (amountToSpawn - 1) : 0;
-            Instantiate(toSpawn, transform.position, transform.rotation * Quaternion.Euler(0,0, lowestAngle + angleDelta * i));
+
+            // Ensure that the spawned object is at z-position, so that it can be hit by the player
+            var spawnPosition = new Vector3(transform.position.x, transform.position.y, 0);
+            Instantiate(toSpawn, spawnPosition, transform.rotation * Quaternion.Euler(0, 0, lowestAngle + angleDelta * i));
         }
     }
 }

@@ -21,7 +21,7 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        ToLevel(true);
+        LoadLevel(true);
         Mailbox.AddSubscriber<GameOverMail>(OnGameOver);
     }
 
