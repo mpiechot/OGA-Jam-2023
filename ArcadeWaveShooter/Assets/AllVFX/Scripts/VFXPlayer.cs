@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using static UnityEngine.Rendering.VirtualTexturing.Debugging;
 
 public class VFXPlayer : MonoBehaviour
 {
@@ -15,15 +16,12 @@ public class VFXPlayer : MonoBehaviour
     private void SpawnVFX(VFXRequestMail vfxRequestMail)
     {
         // Load the VFX prefab using Addressables
-        vfxRequestMail.vfxAssetReference.LoadAssetAsync<GameObject>().Completed += OnVFXLoaded;
+        vfxRequestMail.vfxAssetReference.LoadAssetAsync<GameObject>().Completed += (handle) =>  OnVFXLoaded(handle, vfxRequestMail.spawnPosition);
     }
 
-    private void OnVFXLoaded(AsyncOperationHandle<GameObject> handle)
+    private void OnVFXLoaded(AsyncOperationHandle<GameObject> handle, Vector3 spawnPosition)
     {
         // Spawn the VFX object at the current position
-        GameObject vfxObject = Instantiate(handle.Result, transform.position, Quaternion.identity);
-
-        // Set the VFX object as a child of this object
-        vfxObject.transform.parent = transform;
+        GameObject vfxObject = Instantiate(handle.Result, spawnPosition, Quaternion.identity);
     }
 }

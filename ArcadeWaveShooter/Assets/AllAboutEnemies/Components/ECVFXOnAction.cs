@@ -36,7 +36,7 @@ public CallScenario callScenario = CallScenario.OnDestroy;
     {
         if (vfxAssetPrefabReference != null)
         {
-            Mailbox.InvokeSubscribers<VFXRequestMail>(new VFXRequestMail() { spawner = gameObject, vfxAssetReference = vfxAssetPrefabReference });
+            Mailbox.InvokeSubscribers<VFXRequestMail>(new VFXRequestMail() { spawner = gameObject, spawnPosition = transform.position, vfxAssetReference = vfxAssetPrefabReference });
         }
     }
 }
