@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class MovementKI : MonoBehaviour
@@ -28,11 +29,23 @@ public class MovementKI : MonoBehaviour
 
     private float xVelocity = 0;
     private float yVelocity = 0;
+    private bool canMove = true;
+
+    private Coroutine stopRoutine;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        Mailbox.AddSubscriber<HeatLimitReachedMail>(OnHeatLimitReached);
+    }
 
     // Update is called once per frame
     void Update()
     {
-        Move();
+        if (canMove)
+        {
+            Move();
+        }
     }
 
     private void Move()
@@ -72,4 +85,21 @@ public class MovementKI : MonoBehaviour
 
         transform.position = new Vector3(newX, newY, 0);
     }
+
+
+    private void OnHeatLimitReached(HeatLimitReachedMail mail)
+    {
+        canMove = false;
+        if(stopRoutine != null) StopCoroutine(stopRoutine);
+        stopRoutine = StartCoroutine(EnableMovementAfterDelay(5.0f));
+    }
+
+    private IEnumerator EnableMovementAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        canMove = true;
+        Mailbox.InvokeSubscribers(new HeatDecreaseMail(){decreaseAmount = 100});
+        stopRoutine = null;
+    }
+
 }

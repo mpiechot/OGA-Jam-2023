@@ -16,6 +16,7 @@ public class FireKI : MonoBehaviour
         {
             weapon.Spawn(); // Call the Shoot method
             timeSinceLastShot = 0.0f; // Reset time since last shot
+            Mailbox.InvokeSubscribers(new HeatDecreaseMail() { decreaseAmount = -1 });
         }
     }
 }
