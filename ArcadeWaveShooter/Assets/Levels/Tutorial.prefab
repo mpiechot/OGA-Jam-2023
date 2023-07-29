@@ -239,42 +239,6 @@ MonoBehaviour:
       m_Data: []
   m_Knots:
     m_KnotsLink: []
---- !u!1 &200261453731922443
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1161526096844879121}
-  m_Layer: 0
-  m_Name: Wave9.5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1161526096844879121
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200261453731922443}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2914329866745514777}
-  - {fileID: 5272542502503079772}
-  - {fileID: 7093173392385286211}
-  - {fileID: 7388261948065956125}
-  - {fileID: 7428463817534583741}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &262406108254549302
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,41 +513,6 @@ Transform:
   - {fileID: 9108819723529432957}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &500815398221250428
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7021479303349624699}
-  m_Layer: 0
-  m_Name: Wave9.6
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &7021479303349624699
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 500815398221250428}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5890154976757834046}
-  - {fileID: 6635073734748043760}
-  - {fileID: 1652934030923680298}
-  - {fileID: 3156411413760480398}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &547078111950958625
 GameObject:
@@ -957,42 +886,6 @@ MonoBehaviour:
       m_Data: []
   m_Knots:
     m_KnotsLink: []
---- !u!1 &1720531686871513497
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 303991830537033689}
-  m_Layer: 0
-  m_Name: Wave9.4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &303991830537033689
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720531686871513497}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 540726999019070737}
-  - {fileID: 4726333746551039945}
-  - {fileID: 1925140923641257926}
-  - {fileID: 2041588463467809896}
-  - {fileID: 6151291469485495173}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1729010616812768894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1109,41 +1002,6 @@ Transform:
   - {fileID: 7380652151887581318}
   - {fileID: 6303422243779638362}
   m_Father: {fileID: 4160152521961509058}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1758773883044718269
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7324593973822818536}
-  m_Layer: 0
-  m_Name: Wave3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &7324593973822818536
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758773883044718269}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 391482760016720567}
-  - {fileID: 3084842988840011154}
-  - {fileID: 7335068460750563198}
-  - {fileID: 8227667666146162385}
-  m_Father: {fileID: 989038535350112179}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1979545499568931743
@@ -1385,41 +1243,6 @@ MonoBehaviour:
       m_Data: []
   m_Knots:
     m_KnotsLink: []
---- !u!1 &1980066981627034759
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2986469654967831993}
-  m_Layer: 0
-  m_Name: Wave8
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &2986469654967831993
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1980066981627034759}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2189645913286195707}
-  - {fileID: 7172149507998668926}
-  - {fileID: 5589549139006842540}
-  - {fileID: 3277040634769371952}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2024312121031473599
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,76 +1846,6 @@ Transform:
   m_Father: {fileID: 4160152521961509058}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2480013459538436352
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5279778642570003383}
-  m_Layer: 0
-  m_Name: Wave2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &5279778642570003383
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2480013459538436352}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2518518093763188985}
-  - {fileID: 4617376418488003762}
-  - {fileID: 4188267159268132255}
-  - {fileID: 1772661341029619270}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2762666667530009150
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3343762464563865533}
-  m_Layer: 0
-  m_Name: Wave1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &3343762464563865533
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2762666667530009150}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 689640346148605795}
-  - {fileID: 6844342676519446674}
-  - {fileID: 604101773300310476}
-  - {fileID: 2847436937357235695}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3206465620301682693
 GameObject:
   m_ObjectHideFlags: 0
@@ -2125,47 +1878,6 @@ Transform:
   m_Father: {fileID: 4702625646985357287}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3213912089771345069
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2092571860898634845}
-  m_Layer: 0
-  m_Name: Wave 10.1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &2092571860898634845
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3213912089771345069}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3268821462732148381}
-  - {fileID: 6338563674920554660}
-  - {fileID: 1752381000843604630}
-  - {fileID: 6921595828311331559}
-  - {fileID: 2662861831143256568}
-  - {fileID: 1925287554437529567}
-  - {fileID: 7018446642714478415}
-  - {fileID: 8330521153275766584}
-  - {fileID: 1129185810641165751}
-  - {fileID: 2151754227225264357}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3280927191764781185
 GameObject:
   m_ObjectHideFlags: 0
@@ -2194,25 +1906,88 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3343762464563865533}
-  - {fileID: 5279778642570003383}
-  - {fileID: 7324593973822818536}
-  - {fileID: 6553763280203160686}
-  - {fileID: 1899586489730605148}
-  - {fileID: 6042504912638819214}
-  - {fileID: 7619482453914069514}
-  - {fileID: 2986469654967831993}
-  - {fileID: 4422624225318180579}
-  - {fileID: 9054547669259298650}
-  - {fileID: 5350768155165003015}
-  - {fileID: 303991830537033689}
-  - {fileID: 1161526096844879121}
-  - {fileID: 7021479303349624699}
-  - {fileID: 2929290663368677528}
-  - {fileID: 8803293344489742650}
-  - {fileID: 2092571860898634845}
-  - {fileID: 7404255441026123892}
-  - {fileID: 7224291970350655978}
+  - {fileID: 689640346148605795}
+  - {fileID: 6844342676519446674}
+  - {fileID: 604101773300310476}
+  - {fileID: 2847436937357235695}
+  - {fileID: 2518518093763188985}
+  - {fileID: 4617376418488003762}
+  - {fileID: 4188267159268132255}
+  - {fileID: 1772661341029619270}
+  - {fileID: 391482760016720567}
+  - {fileID: 3084842988840011154}
+  - {fileID: 7335068460750563198}
+  - {fileID: 8227667666146162385}
+  - {fileID: 756159468753629039}
+  - {fileID: 76983048613400044}
+  - {fileID: 5452944344679725800}
+  - {fileID: 7253650456817260530}
+  - {fileID: 3091583553703355998}
+  - {fileID: 9010641927028425171}
+  - {fileID: 8144745437081610505}
+  - {fileID: 6373792580103175084}
+  - {fileID: 3318425244123210905}
+  - {fileID: 5168651082062150502}
+  - {fileID: 8194220446802569075}
+  - {fileID: 3959502565235546200}
+  - {fileID: 4230153394322983855}
+  - {fileID: 4970611131298884664}
+  - {fileID: 4378124137805579901}
+  - {fileID: 723228071129637536}
+  - {fileID: 2189645913286195707}
+  - {fileID: 7172149507998668926}
+  - {fileID: 5589549139006842540}
+  - {fileID: 3277040634769371952}
+  - {fileID: 5375434937409137571}
+  - {fileID: 6480028217641574539}
+  - {fileID: 3222101819734665794}
+  - {fileID: 8321249017036415927}
+  - {fileID: 17152258001063997}
+  - {fileID: 7471494419856078155}
+  - {fileID: 2212752887379327631}
+  - {fileID: 7169431780875310680}
+  - {fileID: 8908746555809874079}
+  - {fileID: 7379606548592571889}
+  - {fileID: 5783522293426676958}
+  - {fileID: 8085425989227172587}
+  - {fileID: 540726999019070737}
+  - {fileID: 4726333746551039945}
+  - {fileID: 1925140923641257926}
+  - {fileID: 2041588463467809896}
+  - {fileID: 6151291469485495173}
+  - {fileID: 2914329866745514777}
+  - {fileID: 5272542502503079772}
+  - {fileID: 7093173392385286211}
+  - {fileID: 7388261948065956125}
+  - {fileID: 7428463817534583741}
+  - {fileID: 5890154976757834046}
+  - {fileID: 6635073734748043760}
+  - {fileID: 1652934030923680298}
+  - {fileID: 3156411413760480398}
+  - {fileID: 4173832374225241237}
+  - {fileID: 1873081100517311097}
+  - {fileID: 5024469153180890100}
+  - {fileID: 1446196191657924483}
+  - {fileID: 8590160681026123649}
+  - {fileID: 2543673996007137179}
+  - {fileID: 8949330077263037119}
+  - {fileID: 2866914148375130421}
+  - {fileID: 3268821462732148381}
+  - {fileID: 6338563674920554660}
+  - {fileID: 1752381000843604630}
+  - {fileID: 6921595828311331559}
+  - {fileID: 2662861831143256568}
+  - {fileID: 1925287554437529567}
+  - {fileID: 7018446642714478415}
+  - {fileID: 8330521153275766584}
+  - {fileID: 1129185810641165751}
+  - {fileID: 2151754227225264357}
+  - {fileID: 3588463995762863571}
+  - {fileID: 6513073656678805717}
+  - {fileID: 5596453122387723272}
+  - {fileID: 2767696398379354244}
+  - {fileID: 1508089558830674274}
+  - {fileID: 3664505349712942806}
   m_Father: {fileID: 4160152521961509058}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2655,41 +2430,6 @@ Transform:
   m_Father: {fileID: 4702625646985357287}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4159476369484187433
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7619482453914069514}
-  m_Layer: 0
-  m_Name: Wave7
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &7619482453914069514
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4159476369484187433}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4230153394322983855}
-  - {fileID: 4970611131298884664}
-  - {fileID: 4378124137805579901}
-  - {fileID: 723228071129637536}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4401412785949400548
 GameObject:
   m_ObjectHideFlags: 0
@@ -2774,77 +2514,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &4764116896753327818
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1899586489730605148}
-  m_Layer: 0
-  m_Name: Wave5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1899586489730605148
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4764116896753327818}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3091583553703355998}
-  - {fileID: 9010641927028425171}
-  - {fileID: 8144745437081610505}
-  - {fileID: 6373792580103175084}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4834589191440533331
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2929290663368677528}
-  m_Layer: 0
-  m_Name: Wave9.7
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &2929290663368677528
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4834589191440533331}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4173832374225241237}
-  - {fileID: 1873081100517311097}
-  - {fileID: 5024469153180890100}
-  - {fileID: 1446196191657924483}
-  - {fileID: 8590160681026123649}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5109186133361730098
 GameObject:
   m_ObjectHideFlags: 0
@@ -3439,76 +3108,6 @@ MonoBehaviour:
       m_Data: []
   m_Knots:
     m_KnotsLink: []
---- !u!1 &5506511045957460087
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4422624225318180579}
-  m_Layer: 0
-  m_Name: Wave9.1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &4422624225318180579
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5506511045957460087}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5375434937409137571}
-  - {fileID: 6480028217641574539}
-  - {fileID: 3222101819734665794}
-  - {fileID: 8321249017036415927}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5673155270538370940
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6553763280203160686}
-  m_Layer: 0
-  m_Name: Wave4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &6553763280203160686
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5673155270538370940}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 756159468753629039}
-  - {fileID: 76983048613400044}
-  - {fileID: 5452944344679725800}
-  - {fileID: 7253650456817260530}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5700802566608928497
 GameObject:
   m_ObjectHideFlags: 0
@@ -3810,179 +3409,6 @@ Transform:
   m_Children:
   - {fileID: 8998504661985341533}
   m_Father: {fileID: 4702625646985357287}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6892001543893868090
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7404255441026123892}
-  m_Layer: 0
-  m_Name: Wave 10.2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &7404255441026123892
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6892001543893868090}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3588463995762863571}
-  - {fileID: 6513073656678805717}
-  - {fileID: 5596453122387723272}
-  - {fileID: 2767696398379354244}
-  - {fileID: 1508089558830674274}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7040617907803464590
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6042504912638819214}
-  m_Layer: 0
-  m_Name: Wave6
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &6042504912638819214
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7040617907803464590}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3318425244123210905}
-  - {fileID: 5168651082062150502}
-  - {fileID: 8194220446802569075}
-  - {fileID: 3959502565235546200}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7042800016340992848
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7224291970350655978}
-  m_Layer: 0
-  m_Name: Wave 11
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &7224291970350655978
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7042800016340992848}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3664505349712942806}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7190901032350665120
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5350768155165003015}
-  m_Layer: 0
-  m_Name: Wave9.3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &5350768155165003015
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7190901032350665120}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7379606548592571889}
-  - {fileID: 5783522293426676958}
-  - {fileID: 8085425989227172587}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7428529002926008167
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9054547669259298650}
-  m_Layer: 0
-  m_Name: Wave9.2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &9054547669259298650
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7428529002926008167}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 17152258001063997}
-  - {fileID: 7471494419856078155}
-  - {fileID: 2212752887379327631}
-  - {fileID: 7169431780875310680}
-  - {fileID: 8908746555809874079}
-  m_Father: {fileID: 989038535350112179}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7684385822068152364
@@ -4725,51 +4151,78 @@ MonoBehaviour:
       First Asterioid-wave'
     timeToActivate: 0
     objectReferences:
-    - {fileID: 2762666667530009150}
+    - {fileID: 7321916836982593385}
+    - {fileID: 3671922205325226136}
+    - {fileID: 7236308170233362886}
+    - {fileID: 5443326250980117989}
     waitForDestruction: 0
   - label: Wave 2
     timeToActivate: 4
     objectReferences:
-    - {fileID: 2480013459538436352}
+    - {fileID: 5691747769004163315}
+    - {fileID: 3177997415425094840}
+    - {fileID: 6201740800001777045}
+    - {fileID: 8401314150761418316}
     waitForDestruction: 0
   - label: Wave 3
     timeToActivate: 7
     objectReferences:
-    - {fileID: 1758773883044718269}
+    - {fileID: 7593183126604999357}
+    - {fileID: 5098396896034184600}
+    - {fileID: 704199035590737780}
+    - {fileID: 2170797186741202651}
     waitForDestruction: 0
   - label: 'Wave 4
 
 '
     timeToActivate: 9
     objectReferences:
-    - {fileID: 5673155270538370940}
+    - {fileID: 7381645717227452261}
+    - {fileID: 7863226677486130662}
+    - {fileID: 2855857559802716898}
+    - {fileID: 622780999411617784}
     waitForDestruction: 0
   - label: Wave 5
     timeToActivate: 11
     objectReferences:
-    - {fileID: 4764116896753327818}
+    - {fileID: 5109675111025622612}
+    - {fileID: 1225700085602376153}
+    - {fileID: 2092281012133310723}
+    - {fileID: 3781605560473510822}
     waitForDestruction: 0
   - label: Wave 6
     timeToActivate: 13
     objectReferences:
-    - {fileID: 7040617907803464590}
+    - {fileID: 4756890280288631955}
+    - {fileID: 3149151290865165164}
+    - {fileID: 2141757084877946745}
+    - {fileID: 6556201153823457362}
     waitForDestruction: 0
   - label: Wave 7
     timeToActivate: 15
     objectReferences:
-    - {fileID: 4159476369484187433}
+    - {fileID: 6249363189385089957}
+    - {fileID: 2951437553549947954}
+    - {fileID: 5822182458389208695}
+    - {fileID: 7352083188857862826}
     waitForDestruction: 0
   - label: 'Wave 8
 
 '
     timeToActivate: 18
     objectReferences:
-    - {fileID: 1980066981627034759}
-    waitForDestruction: 0
+    - {fileID: 8245417978430267889}
+    - {fileID: 1118620410091094132}
+    - {fileID: 2421993216479624870}
+    - {fileID: 4716631877929757498}
+    waitForDestruction: 1
   - label: Wave 9.1
     timeToActivate: 30
     objectReferences:
-    - {fileID: 5506511045957460087}
+    - {fileID: 2780925714856506281}
+    - {fileID: 3882978058083448961}
+    - {fileID: 4663899784897573448}
+    - {fileID: 2266919511170857917}
     waitForDestruction: 0
   - label: 'Wave 9.2
 
@@ -4777,7 +4230,11 @@ MonoBehaviour:
 '
     timeToActivate: 30.5
     objectReferences:
-    - {fileID: 7428529002926008167}
+    - {fileID: 7796394299868071991}
+    - {fileID: 846289953467804993}
+    - {fileID: 8267469457846002309}
+    - {fileID: 1112464512247893586}
+    - {fileID: 1705893832332400789}
     waitForDestruction: 0
   - label: 'Wave 9.3
 
@@ -4785,7 +4242,9 @@ MonoBehaviour:
 '
     timeToActivate: 31
     objectReferences:
-    - {fileID: 7190901032350665120}
+    - {fileID: 749591652246105595}
+    - {fileID: 4345276886851812564}
+    - {fileID: 2034361171701877473}
     waitForDestruction: 0
   - label: 'Wave 9.4
 
@@ -4793,7 +4252,11 @@ MonoBehaviour:
 '
     timeToActivate: 31.5
     objectReferences:
-    - {fileID: 1720531686871513497}
+    - {fileID: 7750616873938795803}
+    - {fileID: 3285933569887059907}
+    - {fileID: 8555095278146799564}
+    - {fileID: 8096233290839839842}
+    - {fileID: 4130772467497651087}
     waitForDestruction: 0
   - label: 'Wave 9.5
 
@@ -4801,7 +4264,11 @@ MonoBehaviour:
 '
     timeToActivate: 32
     objectReferences:
-    - {fileID: 200261453731922443}
+    - {fileID: 4935790430774498067}
+    - {fileID: 2676653120148457302}
+    - {fileID: 1044473590027335753}
+    - {fileID: 758528558942017815}
+    - {fileID: 799812072950344631}
     waitForDestruction: 0
   - label: 'Wave 9.6
 
@@ -4809,7 +4276,10 @@ MonoBehaviour:
 '
     timeToActivate: 32.5
     objectReferences:
-    - {fileID: 500815398221250428}
+    - {fileID: 4445259618584492340}
+    - {fileID: 3466136482049548794}
+    - {fileID: 8862752091864027680}
+    - {fileID: 5171090980393520260}
     waitForDestruction: 0
   - label: 'Wave 9.7
 
@@ -4817,7 +4287,11 @@ MonoBehaviour:
 '
     timeToActivate: 33
     objectReferences:
-    - {fileID: 4834589191440533331}
+    - {fileID: 6188749366598245535}
+    - {fileID: 8498347448780888691}
+    - {fileID: 3005084845064498174}
+    - {fileID: 8655741919427596169}
+    - {fileID: 1961551886136733579}
     waitForDestruction: 0
   - label: 'Wave 9.8
 
@@ -4826,7 +4300,9 @@ MonoBehaviour:
 '
     timeToActivate: 33.5
     objectReferences:
-    - {fileID: 8918340629844554331}
+    - {fileID: 5711204973381732241}
+    - {fileID: 1170052885375883957}
+    - {fileID: 5460587705560426815}
     waitForDestruction: 0
   - label: 'Wave 10.1
 
@@ -4835,7 +4311,16 @@ MonoBehaviour:
 '
     timeToActivate: 45
     objectReferences:
-    - {fileID: 3213912089771345069}
+    - {fileID: 4707276878223316631}
+    - {fileID: 4321677422810237102}
+    - {fileID: 8385422749641124508}
+    - {fileID: 864908932972874477}
+    - {fileID: 5258750906404891122}
+    - {fileID: 8554950849728686037}
+    - {fileID: 966088799568011077}
+    - {fileID: 2275796063721537330}
+    - {fileID: 7180171772549268925}
+    - {fileID: 8201659369168738543}
     waitForDestruction: 0
   - label: 'Wave 10.2
 
@@ -4844,7 +4329,11 @@ MonoBehaviour:
 '
     timeToActivate: 45.5
     objectReferences:
-    - {fileID: 6892001543893868090}
+    - {fileID: 6756099080977577433}
+    - {fileID: 3921968249435121887}
+    - {fileID: 2424111818200865794}
+    - {fileID: 5361079718843781262}
+    - {fileID: 8710942284426275176}
     waitForDestruction: 0
   - label: 'Wave 11
 
@@ -4853,42 +4342,8 @@ MonoBehaviour:
 '
     timeToActivate: 60
     objectReferences:
-    - {fileID: 7042800016340992848}
+    - {fileID: 6833161986441940700}
     waitForDestruction: 1
---- !u!1 &8918340629844554331
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8803293344489742650}
-  m_Layer: 0
-  m_Name: Wave9.8
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &8803293344489742650
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8918340629844554331}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2543673996007137179}
-  - {fileID: 8949330077263037119}
-  - {fileID: 2866914148375130421}
-  m_Father: {fileID: 989038535350112179}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9049292571325394757
 GameObject:
   m_ObjectHideFlags: 0
@@ -5208,7 +4663,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7021479303349624699}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -5264,7 +4719,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (17)
+      value: ObstacleEnemy-Wave 9.6-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5276,13 +4735,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 47212476131899976}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8862752091864027680 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 47212476131899976}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &163877841310164961
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2929290663368677528}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -5342,7 +4806,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (21)
+      value: ObstacleEnemy-Wave 9.7-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5354,13 +4822,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 163877841310164961}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8655741919427596169 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 163877841310164961}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &196490114304655616
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7404255441026123892}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -5420,7 +4893,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (16)
+      value: ObstacleEnemy-Wave 10.2-5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5432,13 +4909,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 196490114304655616}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8710942284426275176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 196490114304655616}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &591364195402746265
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2986469654967831993}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -5514,7 +4996,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (28)
+      value: ObstacleEnemy-Wave 8-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5526,13 +5012,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 591364195402746265}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8245417978430267889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 591364195402746265}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &640244273868196589
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 9054547669259298650}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -5588,7 +5079,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (20)
+      value: ObstacleEnemy-Wave 9.2-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5600,13 +5095,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 640244273868196589}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8267469457846002309 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 640244273868196589}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &721402933716614154
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 303991830537033689}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -5666,7 +5166,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (27)
+      value: ObstacleEnemy-Wave 9.4-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5678,13 +5182,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 721402933716614154}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8096233290839839842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 721402933716614154}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &831843016026599559
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2092571860898634845}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -5744,7 +5253,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (14)
+      value: ObstacleEnemy-Wave 10.1-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5756,13 +5269,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 831843016026599559}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8201659369168738543 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 831843016026599559}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &927780100200992701
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2092571860898634845}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -5822,7 +5340,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (10)
+      value: ObstacleEnemy-Wave 10.1-6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5834,13 +5356,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 927780100200992701}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8554950849728686037 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 927780100200992701}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &927922637758721956
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 303991830537033689}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -5896,7 +5423,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (26)
+      value: ObstacleEnemy-Wave 9.4-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5908,13 +5439,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 927922637758721956}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8555095278146799564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 927922637758721956}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1010610603183538932
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2092571860898634845}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -5974,7 +5510,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (7)
+      value: ObstacleEnemy-Wave 10.1-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5986,13 +5526,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 1010610603183538932}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8385422749641124508 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 1010610603183538932}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1066825175945831972
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 5279778642570003383}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -6052,7 +5597,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (4)
+      value: ObstacleEnemy-Wave 2-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6064,13 +5613,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 1066825175945831972}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8401314150761418316 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 1066825175945831972}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1128530588761305627
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2929290663368677528}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -6130,7 +5684,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (19)
+      value: ObstacleEnemy-Wave 9.7-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6142,13 +5700,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 1128530588761305627}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8498347448780888691 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 1128530588761305627}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1285445187353187699
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 303991830537033689}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -6208,7 +5771,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (24)
+      value: ObstacleEnemy-Wave 9.4-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6220,13 +5787,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 1285445187353187699}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7750616873938795803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 1285445187353187699}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1385154576527573717
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7324593973822818536}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -6302,7 +5874,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy
+      value: ObstacleEnemy-Wave 3-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6314,13 +5890,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 1385154576527573717}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7593183126604999357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 1385154576527573717}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1615440013618405471
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 9054547669259298650}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -6376,7 +5957,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (18)
+      value: ObstacleEnemy-Wave 9.2-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6388,13 +5973,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 1615440013618405471}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7796394299868071991 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 1615440013618405471}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1677206502974602638
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 6553763280203160686}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -6470,7 +6060,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (29)
+      value: ObstacleEnemy-Wave 4-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6482,13 +6076,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 1677206502974602638}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7863226677486130662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 1677206502974602638}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1872496075412024789
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2092571860898634845}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -6544,7 +6143,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (13)
+      value: ObstacleEnemy-Wave 10.1-9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6556,13 +6159,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 1872496075412024789}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7180171772549268925 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 1872496075412024789}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2029354071613841165
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 6553763280203160686}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -6638,7 +6246,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (28)
+      value: ObstacleEnemy-Wave 4-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6650,13 +6262,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 2029354071613841165}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7381645717227452261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 2029354071613841165}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2044266822912922306
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7619482453914069514}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -6728,7 +6345,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (3)
+      value: ObstacleEnemy-Wave 7-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6740,13 +6361,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 2044266822912922306}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7352083188857862826 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 2044266822912922306}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2176908356590834094
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 3343762464563865533}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -6802,7 +6428,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (2)
+      value: ObstacleEnemy-Wave 1-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6814,13 +6444,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 2176908356590834094}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7236308170233362886 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 2176908356590834094}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2289453675139415809
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 3343762464563865533}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -6900,7 +6535,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy
+      value: ObstacleEnemy-Wave 1-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6912,13 +6551,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 2289453675139415809}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7321916836982593385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 2289453675139415809}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2352329655162136634
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 6042504912638819214}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -6978,7 +6622,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (4)
+      value: ObstacleEnemy-Wave 6-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6990,13 +6638,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 2352329655162136634}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6556201153823457362 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 2352329655162136634}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2633811876059424436
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7224291970350655978}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: 5fd8f8151da1e414f93fe303b4079533, type: 3}
       propertyPath: splineContainer
@@ -7004,7 +6657,7 @@ PrefabInstance:
       objectReference: {fileID: 1749657758870761008}
     - target: {fileID: 1609999214460448866, guid: 5fd8f8151da1e414f93fe303b4079533, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1609999214460448866, guid: 5fd8f8151da1e414f93fe303b4079533, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7024,15 +6677,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1609999214460448866, guid: 5fd8f8151da1e414f93fe303b4079533, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1609999214460448866, guid: 5fd8f8151da1e414f93fe303b4079533, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1609999214460448866, guid: 5fd8f8151da1e414f93fe303b4079533, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1609999214460448866, guid: 5fd8f8151da1e414f93fe303b4079533, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7068,7 +6721,11 @@ PrefabInstance:
       objectReference: {fileID: 8095389322666506087}
     - target: {fileID: 8816193663016708200, guid: 5fd8f8151da1e414f93fe303b4079533, type: 3}
       propertyPath: m_Name
-      value: ShootyEnemy
+      value: ShootyEnemy-Wave 11-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: 5fd8f8151da1e414f93fe303b4079533, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7080,13 +6737,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: 5fd8f8151da1e414f93fe303b4079533, type: 3}
   m_PrefabInstance: {fileID: 2633811876059424436}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6833161986441940700 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: 5fd8f8151da1e414f93fe303b4079533, type: 3}
+  m_PrefabInstance: {fileID: 2633811876059424436}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2853898139502108081
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7404255441026123892}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -7146,7 +6808,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (17)
+      value: ObstacleEnemy-Wave 10.2-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7158,13 +6824,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 2853898139502108081}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6756099080977577433 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 2853898139502108081}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3068611009161049631
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7619482453914069514}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -7224,7 +6895,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (2)
+      value: ObstacleEnemy-Wave 7-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7236,13 +6911,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 3068611009161049631}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5822182458389208695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 3068611009161049631}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3190918031485056509
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 5279778642570003383}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -7318,7 +6998,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (30)
+      value: ObstacleEnemy-Wave 2-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7330,13 +7014,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 3190918031485056509}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6201740800001777045 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 3190918031485056509}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3234529944622758861
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7619482453914069514}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -7412,7 +7101,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy
+      value: ObstacleEnemy-Wave 7-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7424,13 +7117,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 3234529944622758861}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6249363189385089957 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 3234529944622758861}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3439540306023429367
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2929290663368677528}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -7490,7 +7188,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (18)
+      value: ObstacleEnemy-Wave 9.7-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7502,13 +7204,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 3439540306023429367}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6188749366598245535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 3439540306023429367}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3476507284590639334
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7404255441026123892}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -7568,7 +7275,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (15)
+      value: ObstacleEnemy-Wave 10.2-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7580,13 +7291,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 3476507284590639334}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5361079718843781262 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 3476507284590639334}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3575452363233837399
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 8803293344489742650}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -7646,7 +7362,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (17)
+      value: ObstacleEnemy-Wave 9.8-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7658,13 +7378,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 3575452363233837399}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5460587705560426815 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 3575452363233837399}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3590491570976302477
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 3343762464563865533}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -7744,7 +7469,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (3)
+      value: ObstacleEnemy-Wave 1-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7756,13 +7485,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 3590491570976302477}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5443326250980117989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 3590491570976302477}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3648970660143677850
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2092571860898634845}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -7822,7 +7556,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (9)
+      value: ObstacleEnemy-Wave 10.1-5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7834,13 +7572,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 3648970660143677850}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5258750906404891122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 3648970660143677850}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3793243775106853019
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 5279778642570003383}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -7916,7 +7659,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (28)
+      value: ObstacleEnemy-Wave 2-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7928,13 +7675,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 3793243775106853019}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5691747769004163315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 3793243775106853019}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3826704830982123513
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 8803293344489742650}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -7994,7 +7746,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (15)
+      value: ObstacleEnemy-Wave 9.8-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8006,13 +7762,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 3826704830982123513}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5711204973381732241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 3826704830982123513}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4060760242080027899
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 6042504912638819214}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -8088,7 +7849,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (28)
+      value: ObstacleEnemy-Wave 6-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8100,13 +7865,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 4060760242080027899}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4756890280288631955 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 4060760242080027899}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4242647352919071264
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4422624225318180579}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -8166,7 +7936,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (26)
+      value: ObstacleEnemy-Wave 9.1-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8178,13 +7952,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 4242647352919071264}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4663899784897573448 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 4242647352919071264}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4254478932612497151
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2092571860898634845}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -8244,7 +8023,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (5)
+      value: ObstacleEnemy-Wave 10.1-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8256,13 +8039,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 4254478932612497151}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4707276878223316631 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 4254478932612497151}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4264274262067528530
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2986469654967831993}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -8318,7 +8106,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (4)
+      value: ObstacleEnemy-Wave 8-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8330,13 +8122,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 4264274262067528530}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4716631877929757498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 4264274262067528530}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4366325170260637168
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7324593973822818536}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -8412,7 +8209,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (1)
+      value: ObstacleEnemy-Wave 3-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8424,13 +8225,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 4366325170260637168}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5098396896034184600 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 4366325170260637168}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4373099819917317692
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1899586489730605148}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -8506,7 +8312,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy
+      value: ObstacleEnemy-Wave 5-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8518,13 +8328,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 4373099819917317692}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5109675111025622612 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 4373099819917317692}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4438876551009543404
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7021479303349624699}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -8584,7 +8399,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (18)
+      value: ObstacleEnemy-Wave 9.6-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8596,13 +8415,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 4438876551009543404}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5171090980393520260 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 4438876551009543404}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4478295826795281275
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1161526096844879121}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -8658,7 +8482,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (18)
+      value: ObstacleEnemy-Wave 9.5-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8670,13 +8498,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
   m_PrefabInstance: {fileID: 4478295826795281275}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4935790430774498067 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 4478295826795281275}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4728999327039955142
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2092571860898634845}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -8736,13 +8569,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (6)
+      value: ObstacleEnemy-Wave 10.1-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &4321677422810237102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 4728999327039955142}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6338563674920554660 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -8754,7 +8596,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 303991830537033689}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -8814,13 +8656,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (28)
+      value: ObstacleEnemy-Wave 9.4-5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &4130772467497651087 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 4830702967713719271}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6151291469485495173 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -8832,7 +8683,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 5350768155165003015}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -8888,13 +8739,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (16)
+      value: ObstacleEnemy-Wave 9.3-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &4345276886851812564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 5049924017011381436}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5783522293426676958 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -8906,7 +8766,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7021479303349624699}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -8962,13 +8822,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (15)
+      value: ObstacleEnemy-Wave 9.6-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &4445259618584492340 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 5181907588093366620}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5890154976757834046 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -8980,7 +8849,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 3343762464563865533}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -9060,13 +8929,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (1)
+      value: ObstacleEnemy-Wave 1-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &3671922205325226136 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 5236596371048257776}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6844342676519446674 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -9078,7 +8956,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7021479303349624699}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -9138,13 +9016,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (16)
+      value: ObstacleEnemy-Wave 9.6-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &3466136482049548794 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 5351219365582522770}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6635073734748043760 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -9156,7 +9043,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7404255441026123892}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -9216,13 +9103,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (13)
+      value: ObstacleEnemy-Wave 10.2-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &3921968249435121887 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 5491234000407740599}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6513073656678805717 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -9234,7 +9130,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1899586489730605148}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -9310,13 +9206,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (3)
+      value: ObstacleEnemy-Wave 5-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &3781605560473510822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 5630519149039143886}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6373792580103175084 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -9328,7 +9233,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4422624225318180579}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -9384,13 +9289,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (25)
+      value: ObstacleEnemy-Wave 9.1-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &3882978058083448961 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 5745030261852737769}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6480028217641574539 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -9402,7 +9316,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 6042504912638819214}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -9478,13 +9392,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (29)
+      value: ObstacleEnemy-Wave 6-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &3149151290865165164 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 5903481369795889924}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5168651082062150502 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -9496,7 +9419,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7619482453914069514}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -9572,13 +9495,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (1)
+      value: ObstacleEnemy-Wave 7-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &2951437553549947954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 5957406596773354586}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4970611131298884664 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -9590,7 +9522,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2929290663368677528}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -9646,13 +9578,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (20)
+      value: ObstacleEnemy-Wave 9.7-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &3005084845064498174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 6047593037978370966}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5024469153180890100 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -9664,7 +9605,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 5279778642570003383}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -9740,13 +9681,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (29)
+      value: ObstacleEnemy-Wave 2-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &3177997415425094840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 6216069895976426704}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4617376418488003762 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -9758,7 +9708,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 303991830537033689}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -9814,13 +9764,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (25)
+      value: ObstacleEnemy-Wave 9.4-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &3285933569887059907 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 6323214685630830507}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4726333746551039945 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -9832,7 +9791,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2986469654967831993}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -9908,13 +9867,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (30)
+      value: ObstacleEnemy-Wave 8-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &2421993216479624870 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 6612916558111266510}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5589549139006842540 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -9926,7 +9894,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7404255441026123892}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -9986,13 +9954,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (14)
+      value: ObstacleEnemy-Wave 10.2-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &2424111818200865794 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 6628530882206069866}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5596453122387723272 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -10004,7 +9981,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4422624225318180579}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -10064,13 +10041,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (24)
+      value: ObstacleEnemy-Wave 9.1-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &2780925714856506281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 6687489587262806977}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5375434937409137571 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -10082,7 +10068,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 6553763280203160686}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -10154,13 +10140,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (30)
+      value: ObstacleEnemy-Wave 4-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &2855857559802716898 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 6772114478647380618}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5452944344679725800 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -10172,7 +10167,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1161526096844879121}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -10232,13 +10227,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (19)
+      value: ObstacleEnemy-Wave 9.5-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &2676653120148457302 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 6880383925375135550}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5272542502503079772 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -10250,7 +10254,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2929290663368677528}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -10310,13 +10314,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (22)
+      value: ObstacleEnemy-Wave 9.7-5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &1961551886136733579 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 7017096819595560931}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8590160681026123649 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -10328,7 +10341,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7324593973822818536}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -10404,13 +10417,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (3)
+      value: ObstacleEnemy-Wave 3-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &2170797186741202651 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 7239907928957339315}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8227667666146162385 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -10422,7 +10444,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 4422624225318180579}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -10478,13 +10500,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (27)
+      value: ObstacleEnemy-Wave 9.1-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &2266919511170857917 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 7290446150632772565}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8321249017036415927 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -10496,7 +10527,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2092571860898634845}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -10556,13 +10587,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (12)
+      value: ObstacleEnemy-Wave 10.1-8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &2275796063721537330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 7335283090974283610}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8330521153275766584 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -10574,7 +10614,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 5350768155165003015}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -10634,13 +10674,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (17)
+      value: ObstacleEnemy-Wave 9.3-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &2034361171701877473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 7377716254230602377}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8085425989227172587 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -10652,7 +10701,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1899586489730605148}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -10712,13 +10761,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (2)
+      value: ObstacleEnemy-Wave 5-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &2092281012133310723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 7444501946480269675}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8144745437081610505 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -10730,7 +10788,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 6042504912638819214}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -10806,13 +10864,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (30)
+      value: ObstacleEnemy-Wave 6-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &2141757084877946745 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 7485094549354338065}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8194220446802569075 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -10824,7 +10891,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 8803293344489742650}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -10880,13 +10947,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (16)
+      value: ObstacleEnemy-Wave 9.8-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &1170052885375883957 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 7666733550521627357}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8949330077263037119 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -10898,7 +10974,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1899586489730605148}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -10974,13 +11050,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (1)
+      value: ObstacleEnemy-Wave 5-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &1225700085602376153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 7736030595902861745}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &9010641927028425171 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -10992,7 +11077,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 9054547669259298650}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -11052,13 +11137,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (22)
+      value: ObstacleEnemy-Wave 9.2-5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &1705893832332400789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 7923489859075502333}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8908746555809874079 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -11070,7 +11164,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 5350768155165003015}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -11130,13 +11224,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (15)
+      value: ObstacleEnemy-Wave 9.3-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &749591652246105595 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 8088039213558334867}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7379606548592571889 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -11148,7 +11251,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1161526096844879121}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -11204,13 +11307,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (21)
+      value: ObstacleEnemy-Wave 9.5-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &758528558942017815 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 8133427095345000831}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7388261948065956125 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -11222,7 +11334,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1161526096844879121}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -11282,13 +11394,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (22)
+      value: ObstacleEnemy-Wave 9.5-5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &799812072950344631 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 8160779512493048799}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7428463817534583741 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -11300,7 +11421,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 9054547669259298650}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -11360,13 +11481,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (19)
+      value: ObstacleEnemy-Wave 9.2-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &846289953467804993 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 8207750224463463721}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7471494419856078155 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -11378,7 +11508,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 6553763280203160686}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -11438,13 +11568,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (4)
+      value: ObstacleEnemy-Wave 4-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &622780999411617784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 8286053122319837072}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7253650456817260530 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -11456,7 +11595,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 7324593973822818536}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -11516,13 +11655,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (2)
+      value: ObstacleEnemy-Wave 3-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &704199035590737780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 8330735890865837852}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7335068460750563198 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -11534,7 +11682,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1161526096844879121}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -11594,13 +11742,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (20)
+      value: ObstacleEnemy-Wave 9.5-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &1044473590027335753 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 8369902932597018657}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7093173392385286211 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -11612,7 +11769,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 9054547669259298650}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -11672,13 +11829,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (21)
+      value: ObstacleEnemy-Wave 9.2-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &1112464512247893586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 8442329525276812858}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7169431780875310680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -11690,7 +11856,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2986469654967831993}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -11762,13 +11928,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (29)
+      value: ObstacleEnemy-Wave 8-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &1118620410091094132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 8493589040427329564}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7172149507998668926 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -11780,7 +11955,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2092571860898634845}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -11836,13 +12011,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (8)
+      value: ObstacleEnemy-Wave 10.1-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &864908932972874477 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 8528040310939329157}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6921595828311331559 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
@@ -11854,7 +12038,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2092571860898634845}
+    m_TransformParent: {fileID: 989038535350112179}
     m_Modifications:
     - target: {fileID: -2039214832730370437, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: splineContainer
@@ -11910,13 +12094,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
       propertyPath: m_Name
-      value: ObstacleEnemy (11)
+      value: ObstacleEnemy-Wave 10.1-7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+--- !u!1 &966088799568011077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816193663016708200, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}
+  m_PrefabInstance: {fileID: 8588740282467825453}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7018446642714478415 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1609999214460448866, guid: f3b62d210004fbd46a873ff9a69c56ad, type: 3}

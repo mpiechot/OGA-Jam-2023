@@ -1,8 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class LVLLevelPlayer : MonoBehaviour
 {
@@ -15,7 +13,7 @@ public class LVLLevelPlayer : MonoBehaviour
         public float timeToActivate;
         public List<GameObject> objectReferences;
         public bool waitForDestruction;
-    }    
+    }
     public List<Instance> instances;
     private float timer = 0f;
     private int currentIndex = 0;
@@ -23,14 +21,14 @@ public class LVLLevelPlayer : MonoBehaviour
 
     private void Update()
     {
-        if(!waitingForDestruction)
+        if (!waitingForDestruction)
             timer += Time.deltaTime;
 
         if (currentIndex < instances.Count)
         {
             var currentInstance = instances[currentIndex];
 
-            if (timer >= currentInstance.timeToActivate && currentInstance.objectReferences.Any(@break => !@break.activeSelf))
+            if (timer >= currentInstance.timeToActivate && currentInstance.objectReferences.Any(@break => @break && !@break.activeSelf))
             {
                 currentInstance.objectReferences.ForEach(@for => @for.SetActive(true));
                 waitingForDestruction = currentInstance.waitForDestruction;
@@ -39,7 +37,7 @@ public class LVLLevelPlayer : MonoBehaviour
                     waitingForDestruction = true;
             }
         }
-        
+
         if (waitingForDestruction && currentIndex > 0)
         {
             var previousInstance = instances[currentIndex - 1];
@@ -47,8 +45,8 @@ public class LVLLevelPlayer : MonoBehaviour
             if (previousInstance.objectReferences.All(@return => !@return))
             {
                 waitingForDestruction = false;
-                if (currentIndex >= instances.Count) 
-                { 
+                if (currentIndex >= instances.Count)
+                {
                     enabled = false;
                     Mailbox.InvokeSubscribers<GameOverMail>(true);
                 }

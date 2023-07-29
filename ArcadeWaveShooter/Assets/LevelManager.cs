@@ -1,6 +1,7 @@
 #nullable enable
 
 using ArcardeWaveShooter.Exceptions;
+using DG.Tweening;
 using UnityEngine;
 
 public class LevelManager : MonoBehaviour
@@ -8,11 +9,19 @@ public class LevelManager : MonoBehaviour
     [SerializeField]
     private LevelLoader? levelLoader;
 
+    [SerializeField]
+    private GameObject? loadingScreenMask;
+
+    [SerializeField]
+    private float loadingScreenMaskSpeed = 1f;
+
     private LevelLoader LevelLoader => levelLoader == null ? throw new SerializeFieldNotAssignedException() : levelLoader;
+
+    private GameObject LoadingScreenMask => loadingScreenMask == null ? throw new SerializeFieldNotAssignedException() : loadingScreenMask;
 
     private void Start()
     {
-        LevelLoader.NextLevel();
+        ToLevel(true);
         Mailbox.AddSubscriber<GameOverMail>(OnGameOver);
     }
 
@@ -23,15 +32,29 @@ public class LevelManager : MonoBehaviour
             return;
         }
 
-        if (gameOver)
+        ToLevel(gameOver);
+    }
+
+    private void ToLevel(bool next)
+    {
+        LoadingScreenMask.transform.position = new Vector3(-Screen.width * .05f, 0, 0);
+        LoadingScreenMask.transform.DOMoveX(0, 3f).SetEase(Ease.OutBounce).OnComplete(() => LoadLevel(next));
+    }
+
+    private void LoadLevel(bool next)
+    {
+        if (next)
         {
-            // Player reached the end of the level
             LevelLoader.NextLevel();
         }
         else
         {
-            // Player died
             LevelLoader.ReloadLoadedLevel();
         }
+
+        LoadingScreenMask.transform.DOMoveX(Screen.width * .05f, 3f).SetDelay(.5f).OnComplete(() =>
+        {
+            LoadingScreenMask.transform.position = new Vector3(-Screen.width * .05f, 0, 0);
+        });
     }
 }
