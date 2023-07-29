@@ -131,12 +131,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1609999214460448866}
   - component: {fileID: 856651386531845331}
-  - component: {fileID: 2251230505490765969}
+  - component: {fileID: 6863846077790521465}
   - component: {fileID: 7401379533246557108}
   - component: {fileID: 7777696466189274877}
   - component: {fileID: 1158561200776431431}
   m_Layer: 7
-  m_Name: Bombs
+  m_Name: EnemyBombs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
---- !u!114 &2251230505490765969
+--- !u!114 &6863846077790521465
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,11 +180,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8816193663016708200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51cef51a9440fb34da89f406bc77684e, type: 3}
+  m_Script: {fileID: 11500000, guid: ec1816878cff11648a463ddb15ebcddf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
+  damage: 50
   destroyOnHit: 1
+  damageRadius: 1.5
 --- !u!65 &7401379533246557108
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -246,6 +247,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDamage: 100
-  bulletSpeed: 1
+  bulletSpeed: 2
   bulletLifetime: 20
   destroyOnHit: 1
