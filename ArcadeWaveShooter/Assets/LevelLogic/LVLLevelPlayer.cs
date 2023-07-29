@@ -48,7 +48,7 @@ public class LVLLevelPlayer : MonoBehaviour
                 if (currentIndex >= instances.Count)
                 {
                     enabled = false;
-                    Mailbox.InvokeSubscribers<GameOverMail>(true);
+                    Mailbox.InvokeSubscribers(new GameOverMail() { isWon = true });
                 }
             }
 

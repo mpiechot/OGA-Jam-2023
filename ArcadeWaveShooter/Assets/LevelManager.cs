@@ -25,14 +25,9 @@ public class LevelManager : MonoBehaviour
         Mailbox.AddSubscriber<GameOverMail>(OnGameOver);
     }
 
-    private void OnGameOver(object obj)
+    private void OnGameOver(GameOverMail obj)
     {
-        if (obj is not bool gameOver)
-        {
-            return;
-        }
-
-        ToLevel(gameOver);
+        ToLevel(obj.isWon);
     }
 
     private void ToLevel(bool next)
