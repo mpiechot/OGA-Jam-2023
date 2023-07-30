@@ -27,9 +27,9 @@ public class ECDamageInAreaOnContact : MonoBehaviour
         }
 
         // Destroy if marked as destroy on hit
-        if (destroyOnHit)
+        if (destroyOnHit && animator != null)
         {
-            animator?.SetTrigger("Explode");
+            animator.SetTrigger("Explode");
         }
     }
 

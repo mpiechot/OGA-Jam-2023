@@ -13,7 +13,7 @@ public class LevelManager : MonoBehaviour
     private GameObject? loadingScreenMask;
 
     [SerializeField]
-    private float loadingScreenMaskSpeed = 1f;
+    private float loadingScreenMaskSpeed = 3f;
 
     private LevelLoader LevelLoader => levelLoader == null ? throw new SerializeFieldNotAssignedException() : levelLoader;
 
@@ -33,7 +33,7 @@ public class LevelManager : MonoBehaviour
     private void ToLevel(bool next)
     {
         LoadingScreenMask.transform.position = new Vector3(-Screen.width * .05f, 0, 0);
-        LoadingScreenMask.transform.DOMoveX(0, 3f).SetEase(Ease.OutBounce).OnComplete(() => LoadLevel(next));
+        LoadingScreenMask.transform.DOMoveX(0, loadingScreenMaskSpeed).SetEase(Ease.OutBounce).OnComplete(() => LoadLevel(next));
     }
 
     private void LoadLevel(bool next)
@@ -47,7 +47,7 @@ public class LevelManager : MonoBehaviour
             LevelLoader.ReloadLoadedLevel();
         }
 
-        LoadingScreenMask.transform.DOMoveX(Screen.width * .05f, 3f).SetDelay(.5f).OnComplete(() =>
+        LoadingScreenMask.transform.DOMoveX(Screen.width * .05f, loadingScreenMaskSpeed).SetDelay(.5f).OnComplete(() =>
         {
             LoadingScreenMask.transform.position = new Vector3(-Screen.width * .05f, 0, 0);
         });

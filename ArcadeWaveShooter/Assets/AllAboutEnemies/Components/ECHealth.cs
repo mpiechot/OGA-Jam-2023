@@ -1,22 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ECHealth : MonoBehaviour
 {
 
-    [SerializeField] private float maxHealth;
+    [SerializeField, Range(1, 5)] protected float maxHealth;
 
-    private float health;
+    protected float health;
+
     private void Start()
     {
         health = maxHealth;
     }
 
-    public void ApplyDamage(float damage)
+    public virtual void ApplyDamage(float damage)
     {
         health -= damage;
-        if(health < 0)
+        if (health < 0)
         {
             Destroy(gameObject);
         }
