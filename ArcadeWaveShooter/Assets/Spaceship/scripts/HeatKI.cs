@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class HeatKI : MonoBehaviour
@@ -25,10 +23,21 @@ public class HeatKI : MonoBehaviour
         }
     }
 
+    public void DecreaseHeat(float heatDecreaseAmount)
+    {
+        heat -= heatDecreaseAmount;
+        if (heat < 0) heat = 0;
+
+        if (heat < heatThreshold && limitReached)
+        {
+            limitReached = false;
+        }
+    }
+
     public void DecreaseHeat(HeatDecreaseMail heatDecreaseMail)
     {
         heat -= heatDecreaseMail.decreaseAmount;
-        if(heat < 0) heat = 0;
+        if (heat < 0) heat = 0;
 
         if (heat < heatThreshold && limitReached)
         {
