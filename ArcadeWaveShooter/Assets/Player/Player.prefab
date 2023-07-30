@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 2404737819375544848}
   - component: {fileID: 8268409537341060063}
   - component: {fileID: 5326866571929285867}
+  - component: {fileID: 8218490583880046220}
   m_Layer: 6
   m_Name: WaveAttack
   m_TagString: Untagged
@@ -114,6 +115,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radiusIncreaseRate: 20
+--- !u!114 &8218490583880046220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2919153044776473200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27169852cd0137a488586d8004391905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveMaterial: {fileID: 2100000, guid: 89d46100ef51795429eb78efb69ec850, type: 2}
+  radius: 0.5
 --- !u!1 &5881410804034641912
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,7 +167,7 @@ Transform:
   - {fileID: 2404737819375544848}
   - {fileID: 6298256352646722161}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8092885497624019422
 MonoBehaviour:
@@ -264,7 +279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heat: 0
   heatIncreaseRate: 1
-  heatThreshold: 15
+  heatThreshold: 30
 --- !u!1 &8532585904790690170
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +332,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
