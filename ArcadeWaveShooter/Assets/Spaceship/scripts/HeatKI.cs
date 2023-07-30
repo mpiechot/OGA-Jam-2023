@@ -7,6 +7,8 @@ public class HeatKI : MonoBehaviour
     public float heatThreshold = 10;
     private bool limitReached = false;
 
+    public bool IsOverHeated { get => heat >= heatThreshold; }
+
     private void Update()
     {
         heat += heatIncreaseRate * Time.deltaTime;

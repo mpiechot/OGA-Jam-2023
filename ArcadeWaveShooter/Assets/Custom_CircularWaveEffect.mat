@@ -33,6 +33,6 @@ Material:
     - _WaveRadius: 0
     - _WaveStrength: 0.29
     m_Colors:
-    - _Center: {r: 0.4637244, g: 0.472839, b: 0, a: 0}
+    - _Center: {r: 0.4935078, g: 0.4087316, b: 0, a: 0}
     - _EmissiveColor: {r: 0, g: 0.8965032, b: 1, a: 1}
   m_BuildTextureStacks: []

@@ -8,8 +8,16 @@ public class FireKI : MonoBehaviour
     public float shootInterval = 1.0f; // Time interval between shots
     private float timeSinceLastShot = 0.0f; // Time since last shot
 
+    private HeatKI heat;
+
+    private void Start()
+    {
+        heat = GetComponent<HeatKI>();
+    }
+
     private void Update()
     {
+        if(heat.IsOverHeated) { return; }
         timeSinceLastShot += Time.deltaTime; // Increment time since last shot
 
         if (Input.GetButton("Fire1") && timeSinceLastShot >= shootInterval)

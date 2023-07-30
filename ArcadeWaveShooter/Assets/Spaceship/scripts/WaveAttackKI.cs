@@ -15,10 +15,6 @@ public class WaveAttackKI : MonoBehaviour
     private float lastUseTime;
 
     private HeatKI heat;
-    
-    private bool canAttack = true;
-
-    private Coroutine heatLimitRoutine;
 
 
     void Start()
@@ -28,13 +24,12 @@ public class WaveAttackKI : MonoBehaviour
         sphereCollider.isTrigger = true;
         sphereCollider.radius = 0f;
         sphereCollider.enabled = false;
-        Mailbox.AddSubscriber<HeatLimitReachedMail>(OnHeatLimitReached);
     }
 
     void Update()
     {
         // Check for input
-        if (canAttack && Input.GetButtonDown("Fire2") && Time.time - lastUseTime > cooldownTime)
+        if (!heat.IsOverHeated && Input.GetButtonDown("Fire2") && Time.time - lastUseTime > cooldownTime)
         {
             // Set the radius of the sphere collider to 0
             currentRadius = 0f;
@@ -71,19 +66,5 @@ public class WaveAttackKI : MonoBehaviour
         {
             health.ApplyDamage(targetDamage);
         }
-    }
-
-    private void OnHeatLimitReached(HeatLimitReachedMail mail)
-    {
-        canAttack = false;
-        if (heatLimitRoutine != null) StopCoroutine(heatLimitRoutine);
-        heatLimitRoutine = StartCoroutine(EnableMovementAfterDelay(5.0f));
-    }
-
-    private IEnumerator EnableMovementAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        canAttack = true;
-        heatLimitRoutine = null;
     }
 }
