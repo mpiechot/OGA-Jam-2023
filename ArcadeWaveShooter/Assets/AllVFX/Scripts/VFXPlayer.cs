@@ -19,20 +19,17 @@ public class VFXPlayer : MonoBehaviour
         // Subscribe to the play mode state changed event
         EditorApplication.playModeStateChanged += OnPlayModeStateChanged;
 #endif
-        // Subscribe to the scene unloaded event
-        SceneManager.activeSceneChanged += OnSceneUnloaded;
     }
 
     private void OnDisable()
     {
         // Unsubscribe from the "SpawnVFX" method
         Mailbox.RemoveSubscriber<VFXRequestMail>(SpawnVFX);
+        stopSpawning = true;
 #if UNITY_EDITOR
         // Unsubscribe from the play mode state changed event
         EditorApplication.playModeStateChanged -= OnPlayModeStateChanged;
 #endif
-        // Unsubscribe from the scene unloaded event
-        SceneManager.activeSceneChanged -= OnSceneUnloaded;
     }
 
     private void SpawnVFX(VFXRequestMail vfxRequestMail)
@@ -60,11 +57,4 @@ public class VFXPlayer : MonoBehaviour
         }
     }
 #endif
-
-    private void OnSceneUnloaded(Scene from, Scene to)
-    {
-        // Unsubscribe from the "SpawnVFX" method
-        Mailbox.RemoveSubscriber<VFXRequestMail>(SpawnVFX);
-        stopSpawning = true;
-    }
 }
