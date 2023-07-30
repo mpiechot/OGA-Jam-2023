@@ -201,6 +201,7 @@ GameObject:
   - component: {fileID: 6909012154692803880}
   - component: {fileID: 2597860381378639557}
   - component: {fileID: 5055956237726833734}
+  - component: {fileID: 6967038532459808747}
   m_Layer: 9
   m_Name: Drone
   m_TagString: Untagged
@@ -303,3 +304,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &6967038532459808747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7272346069577590195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d618eef08db6844a64925a4edb4c4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vfxAssetPrefabReference:
+    m_AssetGUID: 66623af903775b14caa6a5ae55c19c89
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  callScenario: 0

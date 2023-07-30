@@ -730,7 +730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelLoader: {fileID: 1273865313}
   loadingScreenMask: {fileID: 1528560740}
-  loadingScreenMaskSpeed: 50
+  loadingScreenMaskSpeed: 3
 --- !u!114 &1273865313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1123,6 +1123,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3367336466762108515, guid: 360f38ba349215c42871393d95b59648, type: 3}
+      propertyPath: heatThreshold
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367336466762108515, guid: 360f38ba349215c42871393d95b59648, type: 3}
+      propertyPath: heatIncreaseRate
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5567917161231059033, guid: 360f38ba349215c42871393d95b59648, type: 3}
       propertyPath: m_RootOrder
       value: 3
