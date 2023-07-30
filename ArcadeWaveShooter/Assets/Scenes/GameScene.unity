@@ -1131,6 +1131,10 @@ PrefabInstance:
       propertyPath: heatIncreaseRate
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5326866571929285867, guid: 360f38ba349215c42871393d95b59648, type: 3}
+      propertyPath: radiusIncreaseRate
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5567917161231059033, guid: 360f38ba349215c42871393d95b59648, type: 3}
       propertyPath: m_RootOrder
       value: 3
